@@ -1,0 +1,7 @@
+<app-template-pipe title="Pipe Slice">
+  <ul class="list-decimal">
+    <li *ngFor="let fruit of fruits | slice: 0:6">
+      <strong>{{ fruit }}</strong>
+    </li>
+  </ul>
+</app-template-pipe>

@@ -5,6 +5,7 @@ import { TextComponent } from './text/text.component';
 import { NumberComponent } from './number/number.component';
 import { TemplatePipeComponent } from './template-pipe/template-pipe.component';
 import { DateComponent } from './date/date.component';
+import { JsonComponent } from './json/json.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { DateComponent } from './date/date.component';
     NumberComponent,
     TemplatePipeComponent,
     DateComponent,
+    JsonComponent,
   ],
   imports: [CommonModule],
   exports: [ContainerComponent],

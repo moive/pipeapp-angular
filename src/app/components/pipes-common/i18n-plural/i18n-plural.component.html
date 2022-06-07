@@ -1,0 +1,11 @@
+<app-template-pipe title="Pipe i18nPlural">
+  <p>
+    <b>{{ notification | i18nPlural: messages }}</b>
+  </p>
+  <button
+    (click)="addNotification()"
+    class="bg-red-500 text-white p-2 rounded-md font-semibold"
+  >
+    Add notification
+  </button>
+</app-template-pipe>

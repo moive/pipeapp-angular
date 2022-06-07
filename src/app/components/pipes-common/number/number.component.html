@@ -1,0 +1,11 @@
+<app-template-pipe title="Pipes number">
+  <p>
+    Decimal: <b>{{ qualification | number }}</b>
+  </p>
+  <p>
+    Percent: <b>{{ percentage | percent }}</b>
+  </p>
+  <p>
+    Balance <b>{{ balance | currency: "PEN":"symbol":"":"es-PE" }}</b>
+  </p>
+</app-template-pipe>

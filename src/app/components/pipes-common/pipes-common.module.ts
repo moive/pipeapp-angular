@@ -6,6 +6,7 @@ import { NumberComponent } from './number/number.component';
 import { TemplatePipeComponent } from './template-pipe/template-pipe.component';
 import { DateComponent } from './date/date.component';
 import { JsonComponent } from './json/json.component';
+import { KeyValueComponent } from './key-value/key-value.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { JsonComponent } from './json/json.component';
     TemplatePipeComponent,
     DateComponent,
     JsonComponent,
+    KeyValueComponent,
   ],
   imports: [CommonModule],
   exports: [ContainerComponent],

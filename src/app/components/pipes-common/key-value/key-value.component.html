@@ -1,0 +1,6 @@
+<app-template-pipe title="Pipe Key Value">
+  <p *ngFor="let item of person | keyvalue">
+    key: <b>{{ item.key }} </b> - value: <b>{{ item.value }}</b> <br />
+    {{ item | json }}
+  </p>
+</app-template-pipe>

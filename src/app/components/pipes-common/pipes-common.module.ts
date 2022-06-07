@@ -8,6 +8,7 @@ import { DateComponent } from './date/date.component';
 import { JsonComponent } from './json/json.component';
 import { KeyValueComponent } from './key-value/key-value.component';
 import { SliceComponent } from './slice/slice.component';
+import { I18nSelectComponent } from './i18n-select/i18n-select.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { SliceComponent } from './slice/slice.component';
     JsonComponent,
     KeyValueComponent,
     SliceComponent,
+    I18nSelectComponent,
   ],
   imports: [CommonModule],
   exports: [ContainerComponent],

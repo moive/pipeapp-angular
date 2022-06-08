@@ -8,17 +8,18 @@ import { PipesCommonModule } from './components/pipes-common/pipes-common.module
 import localeEsPe from '@angular/common/locales/es-PE';
 import { registerLocaleData } from '@angular/common';
 import { CustomPipeModule } from './components/custom-pipe/custom-pipe.module';
-import { DarkModePipe } from './shared/pipes/dark-mode.pipe';
+import { GlobalModule } from './shared/global/global.module';
 
 registerLocaleData(localeEsPe, 'es-PE');
 
 @NgModule({
-  declarations: [AppComponent, DarkModePipe],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     PipesCommonModule,
     CustomPipeModule,
+    GlobalModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

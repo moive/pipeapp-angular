@@ -1,4 +1,5 @@
-<p>{{ dark }}</p>
+<p>{{ dark ? "Dark Mode" : "Light Mode" }}</p>
+<p>{{ dark | darkmode }}</p>
 
 <button (click)="toggleDark()" class="bg-indigo-500 text-white p-2 rounded-md">
   Change dark
